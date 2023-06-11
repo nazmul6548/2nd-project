@@ -1,0 +1,43 @@
+*{
+    px;
+}
+.headeermenu li a{
+    background:;
+    text-decoration: none;
+}
+.footermenu{}  
+
+
+
+ul li a{
+}
+
+
+ul.headeermenu li a{
+    padding: 2px;
+
+}
+/* 
+
+.headeermenu li:first-child a{
+    color: rgb(41, 196, 10);
+}
+.headermenu li:last-child a{
+    color: blueviolet;
+} */
+.headeermenu li:nth-child(even) {
+    color: aqua;
+}
+.headeermenu li:nth-child(5) a{
+    color: rgb(236, 196, 17);
+}
+.cool{
+    height: 100px;
+    width: 100px;
+    background: #000;
+}
+.cool:hover{
+    background: #fc0b0b;
+    cursor: pointer;
+    transition: .5s;
+}
